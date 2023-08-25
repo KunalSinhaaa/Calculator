@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>CALCLUATOR</h1>
+        <div class="outerBox">
+            <div class="display"><h2 id="disp">0</h2></div>
+            <div class="keyBox">
+                <div class="r1 btn">
+                    <input type="button" name="C" value="C" class="spe button" onclick="sperform(this.name)">
+                    <input type="button" name="X" value="X" class="spe button" onclick="sperform(this.name)">
+                </div>
+                <div class="r2 btn">
+                    <button name="7" value="7" class="button" onclick="Click(this.name)">7</button>
+                    <input type="button" name="8" value="8" class="button" onclick="Click(this.name)">
+                    <input type="button" name="9" value="9" class="button" onclick="Click(this.name)">
+                    <input type="button" name="*" value="*" class="button" onclick="Click(this.name)">
+                </div>
+                <div class="r3 btn">
+                    <input type="button" name="4" value="4" class="button" onclick="Click(this.name)">
+                    <input type="button" name="5" value="5" class="button" onclick="Click(this.name)">
+                    <input type="button" name="6" value="6" class="button" onclick="Click(this.name)">
+                    <input type="button" name="-" value="-" class="button" onclick="Click(this.name)">
+                </div>
+                <div class="r4 btn">
+                    <input type="button" name="1" value="1" class="button" onclick="Click('1')">
+                    <input type="button" name="2" value="2" class="button" onclick="Click(this.name)">
+                    <input type="button" name="3" value="3" class="button" onclick="Click(this.name)">
+                    <input type="button" name="+" value="+" class="button" onclick="Click(this.name)">
+                </div>
+                <div class="r5 btn">
+                    <input type="button" name="." value="." class="button" onclick="Click(this.name)">
+                    <input type="button" name="0" value="0" class="button" onclick="Click(this.name)">
+                    <input type="button" name="=" value="=" class="button" onclick="Click(this.name)">
+                    <input type="button" name="/" value="/" class="button" onclick="Click(this.name)">
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="f">
+                CopyRight @ KS & Co
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
